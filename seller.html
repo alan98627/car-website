@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <nav>
+                <h1>Seller</h1>
+                <div class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="register.html">Seller Registration</a>
+                    <a href="seller.html">Seller</a>
+                    <a href="search.html">Search</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="login" id="loginSection">
+                <h3>Login</h3>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <div class="seller" id="addCarSection" style="display: none;">
+                <h3>Add a Car</h3>
+                <form id="addCarForm">
+                    <label for="make">Make:</label>
+                    <input type="text" id="make" name="make" required>
+                    <label for="model">Model:</label>
+                    <input type="text" id="model" name="model" required>
+                    <label for="year">Year:</label>
+                    <input type="number" id="year" name="year" required>
+                    <label for="mileage">Mileage:</label>
+                    <input type="text" id="mileage" name="mileage" required>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <label for="price">Price:</label>
+                    <input type="text" id="price" name="price" required>
+                    <button type="submit">Add Car</button>
+                </form>
+            </div>
+        </div>
+        </div>
+            
+    </div>
+</body>
+</html>
